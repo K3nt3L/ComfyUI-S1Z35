@@ -11,7 +11,7 @@ Presets for :
 - Custom node 01,
 - Custom node 02.
 
-### What ?
+## What ?
 
 The purpose of this node is to allow you to use your preferred image sizes. You can redefine each of the CSV files as needed.
 
