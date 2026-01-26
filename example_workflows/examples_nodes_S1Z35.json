@@ -1,0 +1,384 @@
+{
+  "id": "dd1e83d7-4940-4e25-847d-db5844e21d28",
+  "revision": 0,
+  "last_node_id": 9,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 5,
+      "type": "S1Z35_Flux2",
+      "pos": [
+        -550.252363064663,
+        1194.5660479434366
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_Flux2",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Square (1024x1024)",
+        false
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 2,
+      "type": "S1Z35_Custom2",
+      "pos": [
+        113.74763693533703,
+        1194.5660479434366
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_Custom2",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "My Format 2 (512x512)",
+        false
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 8,
+      "type": "S1Z35_SDXL",
+      "pos": [
+        -882.252363064663,
+        1002.9272454581402
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_SDXL",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Square (1:1) (1024x1024)",
+        false
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 6,
+      "type": "S1Z35_Flux1",
+      "pos": [
+        -882.252363064663,
+        1194.5660479434366
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_Flux1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Missing flux1.csv (512x512)",
+        false
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 3,
+      "type": "S1Z35_Custom1",
+      "pos": [
+        -218.25236306466297,
+        1194.5660479434366
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_Custom1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "My Format 1 (512x512)",
+        false
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 1,
+      "type": "S1Z35_ZIT",
+      "pos": [
+        -550.252363064663,
+        1002.9272454581402
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_ZIT",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Square (1:1) (1024x1024)",
+        false
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 7,
+      "type": "S1Z35_Qwen",
+      "pos": [
+        -218.25236306466297,
+        1002.9272454581402
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_Qwen",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Square (1328x1328)",
+        false
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 4,
+      "type": "S1Z35_Hunyuan",
+      "pos": [
+        113.74763693533703,
+        1002.9272454581402
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "S1Z35_Hunyuan",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.5.2"
+        }
+      },
+      "widgets_values": [
+        "Square (2048x2048)",
+        false
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 9,
+      "type": "MarkdownNote",
+      "pos": [
+        -486.4693431405236,
+        1361.3663058235727
+      ],
+      "size": [
+        496.32013629951496,
+        438.9783969129728
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "S1Z35 nodes",
+      "properties": {},
+      "widgets_values": [
+        "https://github.com/K3nt3L/ComfyUI-S1Z35\n\n\n\nThe purpose of this node is to allow you to use your preferred image sizes. You can redefine each of the CSV files as needed.\n\nAdditionally, it offers the option to switch from landscape mode (default) to portrait mode.\n\n---\n\nYou can change the resolutions and aspect ratios of each node by modifying the CSV files located in the **\"preset\"** directory:\n\n`\\custom_nodes\\ComfyUI-S1Z35\\presets`\n\n---\n\nExample (content of **zit.csv**):\n\n```\n1024, 1024, Square (1:1)\n1152, 896, Landscape (4:3)\n896, 1152, Portrait (3:4)\n1216, 832, Landscape (3:2)\n832, 1216, Portrait (2:3)\n1344, 768, Cinematic (16:9)\n768, 1344, Vertical (9:16)\n1536, 640, Ultra Wide (21:9)\n1280, 1280, Square HD\n1472, 1104, 4:3 HD\n1536, 1024, 3:2 HD\n1600, 896, 16:9 HD\n```\n\n\n---\n\nThe **custom1.csv** and **custom2.csv** files allow you to create your own presets."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "workflowRendererVersion": "LG",
+    "ue_links": [],
+    "ds": {
+      "scale": 0.7840947718307385,
+      "offset": [
+        1316.893717955615,
+        -592.1984683719537
+      ]
+    },
+    "frontendVersion": "1.37.11"
+  },
+  "version": 0.4
+}
