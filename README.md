@@ -1,6 +1,16 @@
 # ComfyUI-S1Z35
 Basic nodes for image ratios and size presets (all models)
 
+Presets for :
+- SDXL,
+- Flux 1,
+- Flux 2,
+- Z Image turbo,
+- Qwen Image,
+- Hunyuan Image,
+- Custom node 01,
+- Custom node 02.
+
 ### What ?
 
 The purpose of this node is to allow you to use your preferred image sizes. You can redefine each of the CSV files as needed.
